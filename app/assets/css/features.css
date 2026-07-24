@@ -1,0 +1,12 @@
+.py-120 {
+    padding-top: clamp(3rem, 10vw, 7.5rem);
+    padding-bottom: clamp(3rem, 10vw, 7.5rem);
+}
+
+.gap-6 {
+    gap: 2.5rem;
+}
+
+.jetbrains {
+    font-family: "JetBrains Mono", monospace;
+}

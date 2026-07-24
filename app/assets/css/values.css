@@ -1,0 +1,15 @@
+.values {
+    background-image: url('/images/png-jpg/values.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wh-42 {
+    width: 42px;
+    height: 42px;
+}
+
+.p-4-5 {
+    padding: 2.5rem;
+}
