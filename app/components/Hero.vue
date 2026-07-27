@@ -9,8 +9,8 @@
                 <p class="playfair">Track impact, reduce emissions, and accelerate progress—with clarity and confidence.
                 </p>
                 <div class="w-100 d-flex flex-column align-items-center flex-sm-row justify-content-center gap-3">
-                    <ButtonBlack>Request a demo</ButtonBlack>
-                    <ButtonBlack>Explore the platform</ButtonBlack>
+                    <ButtonBlack class="justify-content-center justify-content-sm-end">Request a demo</ButtonBlack>
+                    <ButtonBlack class="justify-content-center justify-content-sm-start">Explore the platform</ButtonBlack>
                 </div>
             </article>
 

@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                 <ul class="navbar-nav fw-bold align-bottom mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Product</a>
+                        <router-link class="nav-link" to="/">Product</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Journal</a>
+                        <router-link class="nav-link" to="journal">Journal</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <router-link class="nav-link" to="about">About</router-link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Careers</a>

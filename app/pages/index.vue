@@ -7,4 +7,5 @@
     <Blog />
     <Testimonials />
     <CallToAction />
+    <Footer />
 </template>
