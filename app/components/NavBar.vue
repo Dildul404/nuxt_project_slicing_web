@@ -27,13 +27,13 @@
                         <router-link class="nav-link" to="/">Product</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="journal">Journal</router-link>
+                        <router-link class="nav-link" to="/journal">Journal</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="about">About</router-link>
+                        <router-link class="nav-link" to="/about">About</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Careers</a>
+                        <router-link class="nav-link" to="/careers">Careers</router-link>
                     </li>
                 </ul>
             </div>
