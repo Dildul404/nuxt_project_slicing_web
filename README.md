@@ -1,4 +1,12 @@
-# Nuxt Minimal Starter
+# Aetherfield
+
+My second slicing project, using nuxt.js and Bootstrap framework
+
+## Live Demo
+
+Link : https://aetherfield-dun.vercel.app/
+
+## Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -38,9 +46,6 @@ yarn dev
 bun run dev
 ```
 
-## Live Demo
-
-Link : https://aetherfield-dun.vercel.app/
 
 ## Production
 
