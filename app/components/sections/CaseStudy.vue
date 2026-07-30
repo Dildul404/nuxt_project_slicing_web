@@ -10,9 +10,9 @@
                     <p class="playfair fw-medium">With fragmented data and growing reporting pressure, Acme turned to
                         Aetherfield to streamline their ESG workflows. The result? Faster decisions, fewer spreadsheets,
                         and 34% more coverage.</p>
-                    <ButtonBlack class="flex-grow-1 flex-md-grow-0">
+                    <ButtonsButtonBlack class="flex-grow-1 flex-md-grow-0">
                         Read case study
-                    </ButtonBlack>
+                    </ButtonsButtonBlack>
                 </div>
             </article>
         </div>

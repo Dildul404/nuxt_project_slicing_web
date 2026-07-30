@@ -38,9 +38,9 @@
                         </div>
                     </div>
                     <div class="pt-4 border-top">
-                        <ButtonBlack class="flex-grow-1">
+                        <ButtonsButtonBlack class="flex-grow-1">
                             View all article
-                        </ButtonBlack>
+                        </ButtonsButtonBlack>
                     </div>
                 </article>
             </router-link>

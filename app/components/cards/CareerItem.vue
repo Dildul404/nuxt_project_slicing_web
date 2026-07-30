@@ -16,7 +16,7 @@ const { doted_card, role, residence, desc } = defineProps({
         </div>
         <div class="d-flex justify-content-md-end align-items-start flex-shrink-0">
             <router-link class="text-decoration-none" to="/job_listing">
-                <ButtonBlack>{{ doted_card ? 'Apply now' : 'View role' }}</ButtonBlack>
+                <ButtonsButtonBlack>{{ doted_card ? 'Apply now' : 'View role' }}</ButtonsButtonBlack>
             </router-link>
         </div>
     </div>

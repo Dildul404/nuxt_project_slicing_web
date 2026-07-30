@@ -1,5 +1,3 @@
 <template>
-    <NavBar />
-    <JobListing />
-    <Footer />
+    <SectionsJobListing />
 </template>

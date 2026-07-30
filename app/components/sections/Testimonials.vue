@@ -14,8 +14,8 @@ const { quote, name, position, flex_reverse, sticker } = defineProps({
             <div class="position-relative">
 
                 <!-- Sticker -->
-                <img class="position-absolute sticker d-none d-md-block"
-                    :class="sticker ? 'd-block' : 'd-none' "
+                <img class="position-absolute sticker d-none"
+                    :class="sticker ? '' : 'd-md-block' "
                 src="/images/png-jpg/sticker-2.png" alt="">
 
                 <!-- Img -->

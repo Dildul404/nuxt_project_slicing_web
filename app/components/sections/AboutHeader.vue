@@ -9,7 +9,7 @@
                         <p class="playfair text-secondary">Our mission</p>
                         <h2>Climate action starts with better information. We help organizations turn complex data into
                             measurable, meaningful change.</h2>
-                        <ButtonBlack class="flex-grow-1 flex-md-grow-0">Meet the team</ButtonBlack>
+                        <ButtonsButtonBlack class="flex-grow-1 flex-md-grow-0">Meet the team</ButtonsButtonBlack>
                     </div>
                 </div>
             </div>

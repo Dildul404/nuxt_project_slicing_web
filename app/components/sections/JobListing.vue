@@ -21,7 +21,7 @@
                                 into clear, actionable insights for enterprise teams.</p>
                         </div>
                         <div>
-                            <ButtonBlack>Apply now</ButtonBlack>
+                            <ButtonsButtonBlack>Apply now</ButtonsButtonBlack>
                         </div>
                     </article>
                     <article class="py-4 d-flex flex-column gap-2 border-bottom border-secondary pb-4">

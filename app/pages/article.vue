@@ -1,8 +1,6 @@
 <template>
-    <NavBar />
-    <ArticleHeader />
-    <Publisher />
-    <ArticleBody />
-    <RelatedArticles />
-    <Footer />
+    <SectionsArticleHeader />
+    <SectionsPublisher />
+    <SectionsArticleBody />
+    <SectionsRelatedArticles />
 </template>

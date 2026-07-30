@@ -1,5 +1,3 @@
 <template>
-    <NavBar />
-    <CareerSection />
-    <Footer />
+    <SectionsCareerSection />
 </template>

@@ -38,7 +38,7 @@
                         <h5 class="playfair">Surface insights and operational next steps</h5>
                     </div>
                     <div class="border-top pt-4">
-                        <ButtonBlack class="w-100">Explore features</ButtonBlack>
+                        <ButtonsButtonBlack class="w-100">Explore features</ButtonsButtonBlack>
                     </div>
                 </div>
             </div>
