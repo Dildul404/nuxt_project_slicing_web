@@ -4,7 +4,7 @@ My second slicing project, using nuxt.js and Bootstrap framework
 
 ## Live Demo
 
-Link : nuxt-project-slicing-web.vercel.app
+Link : https://nuxt-project-slicing-web.vercel.app
 
 ## Nuxt Minimal Starter
 
