@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar position-fixed w-100 navbar-expand-sm p-3 py-2 bg-transparent justify-content-between navbar-light bg-light">
+    <nav class="navbar position-fixed w-100 navbar-expand-sm p-3 py-2 bg-transparent justify-content-between navbar-light bg-light z-1">
         <div class="container-fluid m-0 p-0">
 
             <!-- Logo -->

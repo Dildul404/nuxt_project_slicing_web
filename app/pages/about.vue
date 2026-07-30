@@ -7,6 +7,7 @@
         name="Eunji park"
         position="Founder's story"
         :flex_reverse="true"
+        :sticker="true"
     />
     <Teams />
     <CallToAction

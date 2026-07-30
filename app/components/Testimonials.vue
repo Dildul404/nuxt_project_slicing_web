@@ -1,16 +1,24 @@
 <script setup>
-const { quote, name, position, flex_reverse } = defineProps({
+const { quote, name, position, flex_reverse, sticker } = defineProps({
     quote: String,
     name: String,
     position: String,
-    flex_reverse: Boolean
+    flex_reverse: Boolean,
+    sticker: Boolean
 })
 </script>
 
 <template>
     <div class="container-fluid m-0 py-120 px-4">
         <div class="d-flex flex-column gap-3 flex-md-row gap-md-5">
-            <div>
+            <div class="position-relative">
+
+                <!-- Sticker -->
+                <img class="position-absolute sticker d-none d-md-block"
+                    :class="sticker ? 'd-block' : 'd-none' "
+                src="/images/png-jpg/sticker-2.png" alt="">
+
+                <!-- Img -->
                 <img class="img-fluid" v-bind="$attrs" alt="">
             </div>
             <div class="d-flex justify-content-center col-md-5"
@@ -27,3 +35,12 @@ const { quote, name, position, flex_reverse } = defineProps({
         </div>
     </div>
 </template>
+<style scoped>
+.sticker {
+    width: 380px;
+    transform: rotate(-20deg);
+    height: auto;
+    top: -150px;
+    left: -120px;
+}
+</style>

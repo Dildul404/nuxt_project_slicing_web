@@ -1,10 +1,14 @@
 <template>
-    <section class="career py-120 d-flex justify-content-center">
+    <section class="career py-120 d-flex justify-content-center overflow-hidden">
         <div class="container-fluid m-0 p-0 pt-5">
-            <h6 class="fw-medium playfair text-center"><img src="" alt="">← Back to careers</h6>
+            <router-link to="/careers" class="text-decoration-none text-black"><h6 class="fw-medium playfair text-center"><img src="" alt="">← Back to careers</h6></router-link>
 
-            <article class="p-4">
-                <div class="bg-light rounded-4 p-4">
+            <article class="p-4 d-flex">
+                <div class="bg-light rounded-4 p-4 position-relative">
+
+                    <!-- Sticker -->
+                    <img class="position-absolute sticker d-none d-md-block" src="/images/png-jpg/sticker-2.png" alt="">
+
                     <article class="d-flex flex-column gap-2 border-bottom border-secondary pb-4">
                         <div class="">
                             <h2 class="fw-bold">Data Scientist</h2>
@@ -68,5 +72,12 @@
 
 .container-fluid {
     max-width: 820px;
+}
+
+.sticker {
+    width: 220px;
+    height: auto;
+    top: 60%;
+    right: -10%;
 }
 </style>
