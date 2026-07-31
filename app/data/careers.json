@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "role": "UX Designer",
+    "residence": "Contract • San Francisco, CA",
+    "desc": "Shape the tools that drive climate intelligence. You'll lead cross-functional teams to build thoughtful, scalable solutions for sustainability-forward organizations.",
+    "doted_card": false
+  },
+  {
+    "id": 2,
+    "role": "Data Scientist",
+    "residence": "Full-time • Denver, CO",
+    "desc": "Help build the intelligence layer for climate action. You'll turn complex sustainability data into clear, actionable insights for enterprise teams.",
+    "doted_card": false
+  },
+  {
+    "id": 3,
+    "role": "Product Manager",
+    "residence": "Part-time • Seattle, WA",
+    "desc": "Shape the tools that drive climate intelligence. You'll lead cross-functional teams to build thoughtful, scalable solutions for sustainability-forward organizations.",
+    "doted_card": false
+  },
+  {
+    "id": 4,
+    "role": "Open Application",
+    "residence": "Full-time • Denver, CO",
+    "desc": "Don't see your role available? Apply for an open application!",
+    "doted_card": true
+  }
+]

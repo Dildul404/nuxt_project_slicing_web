@@ -39,6 +39,15 @@
             </div>
         </div>
     </nav>
-
-
 </template>
+<style scoped>
+.nav-logo img{
+    height: 20px;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+</style>

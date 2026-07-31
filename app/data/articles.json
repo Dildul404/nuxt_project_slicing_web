@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "url": "/images/png-jpg/data-stack.png",
+        "title": "How to Build a Climate-Ready Data Stack",
+        "production": "Insight • 4 min",
+        "quote": "A practical guide for sustainability teams on integrating emissions, waste, and energy data into modern workflows."
+    },
+    {
+        "id": 2,
+        "url": "/images/png-jpg/sustainability.png",
+        "title": "Sustainability Isn’t a Side Project: Making Impact Operational",
+        "production": "Strategy • 7 min",
+        "quote": "Why climate goals belong in your core roadmap—not just in the annual ESG report."
+    },
+    {
+        "id": 3,
+        "url": "/images/png-jpg/aetherfield.png",
+        "title": "Inside the Aetherfield Model: How We Turn Data Into Action",
+        "production": "Insights • 5 min",
+        "quote": "A behind-the-scenes look at our platform logic, system architecture, and sustainability reasoning."
+    },
+    {
+        "id": 4,
+        "url": "/images/png-jpg/mountain.png",
+        "title": "Carbon Accounting: Myths, Models, and Must-Haves",
+        "production": "Tooling • 6 min",
+        "quote": "Why legacy tools aren’t enough—and what the next generation of reporting looks like"
+    },
+    {
+        "id": 5,
+        "url": "/images/png-jpg/ocean.png",
+        "title": "From Spreadsheets to Systems: The Evolution of Climate Reporting",
+        "production": "Tooling • 6 min",
+        "quote": "Debunking common assumptions and offering a framework for getting it right."
+    },
+    {
+        "id": 6,
+        "url": "/images/png-jpg/laptop.png",
+        "title": "Seeing Clearly: Designing Feedback Loops for Sustainable Growth",
+        "production": "Strategy • 4 min",
+        "quote": "Building responsive systems that keep sustainability strategy adaptive and actionable."
+    }
+]

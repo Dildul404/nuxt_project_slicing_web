@@ -1,5 +1,5 @@
 <template>
-    <footer class="home-footer">
+    <footer class="footer">
         <div class="container-fluid m-0 py-4">
             <div class="containert-fluid d-flex flex-column flex-sm-row justify-content-sm-between text-center">
                 <!-- Links -->
@@ -23,7 +23,7 @@
 
                 <!-- Copy -->
                 <div class="fw-bold opacity-75">
-                    <p class="playfair">&copy; • All rights reserved</p>
+                    <p class="serif">&copy; • All rights reserved</p>
                 </div>
             </div>
 
@@ -34,3 +34,16 @@
         </div>
     </footer>
 </template>
+<style scoped>
+.footer {
+    background-color: #FFF546;
+}
+
+.pr-3 {
+    padding-right: 1rem;
+}
+
+.brightness-70 {
+    filter: brightness(70%);
+}
+</style>

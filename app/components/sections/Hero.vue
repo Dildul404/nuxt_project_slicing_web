@@ -1,12 +1,12 @@
 <template>
-    <header class="hero ">
+    <header class="hero">
         <div class="container d-flex flex-column gap-5 text-center">
 
             <!-- Text -->
             <article>
-                <h1 class="display-2 lh-1 playfair">Sustainability insights,</h1>
+                <h1 class="display-2 lh-1 serif">Sustainability insights,</h1>
                 <h2 class="display-2 lh-1 fw-medium">built for business</h2>
-                <p class="playfair">Track impact, reduce emissions, and accelerate progress—with clarity and confidence.
+                <p class="serif">Track impact, reduce emissions, and accelerate progress—with clarity and confidence.
                 </p>
                 <div class="w-100 d-flex flex-column align-items-center flex-sm-row justify-content-center gap-3">
                     <ButtonsButtonBlack class="justify-content-center justify-content-sm-end">Request a demo</ButtonsButtonBlack>
@@ -21,3 +21,25 @@
         </div>
     </header>
 </template>
+<style scoped>
+.hero {
+    background: linear-gradient(to bottom, var(--bg-blue), var(--bg-cream));
+    background-repeat: no-repeat;
+    background-size: 100% 77%;
+}
+
+.hero .container {
+    padding-top: 140px;
+}
+
+.square {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+}
+
+.mw-960 {
+    max-width: 960px;
+}
+</style>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Eunji Park",
+    "role": "Founder",
+    "mail": "e.park@aetherfield.com"
+  },
+  {
+    "id": 2,
+    "name": "Al Goritm",
+    "role": "Senior System Architect",
+    "mail": "a.gorithm@aetherfield.com"
+  },
+  {
+    "id": 3,
+    "name": "Cassandra Query",
+    "role": "Head Of Data Platforms",
+    "mail": "c.query@aetherfield.com"
+  },
+  {
+    "id": 4,
+    "name": "Sue Logic",
+    "role": "Principal Software Engineer",
+    "mail": "s.logic@aetherfield.com"
+  },
+  {
+    "id": 5,
+    "name": "Dash Boardman",
+    "role": "Product Manager",
+    "mail": "d.boardman@aetherfield.com"
+  },
+  {
+    "id": 6,
+    "name": "Greta Watt",
+    "role": "Director of Climate Strategy",
+    "mail": "g.watt@aetherfield.com"
+  },
+  {
+    "id": 7,
+    "name": "Gail Force",
+    "role": "Environmental Risk Analyst",
+    "mail": "g.force@aetherfield.com"
+  },
+  {
+    "id": 8,
+    "name": "Poly Nation",
+    "role": "UX Designer",
+    "mail": "p.nation@aetherfield.com"
+  },
+  {
+    "id": 9,
+    "name": "Will O'Watt",
+    "role": "Clean Energy Solutions Manager",
+    "mail": "w.owatt@aetherfield.com"
+  },
+  {
+    "id": 10,
+    "name": "Lana Terra",
+    "role": "Earth System Researcher",
+    "mail": "l.terra@aetherfield.com"
+  },
+  {
+    "id": 11,
+    "name": "Ella Vation",
+    "role": "Earth System Researcher",
+    "mail": "e.vation@aetherfield.com"
+  },
+  {
+    "id": 12,
+    "name": "Phil Scope",
+    "role": "Lifecycle Assessment Lead",
+    "mail": "p.scope@aetherfield.com"
+  }
+]

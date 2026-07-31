@@ -12,7 +12,7 @@ const { doted_card, role, residence, desc } = defineProps({
         <div>
             <h6 class="fw-bold">{{ role }}</h6>
             <p class="jetbrains text-secondary"><small>{{ residence }}</small></p>
-            <p class="playfair fw-medium lh-sm">{{ desc }}</p>
+            <p class="serif fw-medium lh-sm">{{ desc }}</p>
         </div>
         <div class="d-flex justify-content-md-end align-items-start flex-shrink-0">
             <router-link class="text-decoration-none" to="/job_listing">
@@ -21,7 +21,7 @@ const { doted_card, role, residence, desc } = defineProps({
         </div>
     </div>
 </template>
-<style>
+<style scoped>
 .border-dashed {
     border: 1px dashed #6c757d;
 }

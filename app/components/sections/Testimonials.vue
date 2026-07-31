@@ -15,7 +15,7 @@ const { quote, name, position, flex_reverse, sticker } = defineProps({
 
                 <!-- Sticker -->
                 <img class="position-absolute sticker d-none"
-                    :class="sticker ? '' : 'd-md-block' "
+                    :class="sticker ? 'd-md-block' : '' "
                 src="/images/png-jpg/sticker-2.png" alt="">
 
                 <!-- Img -->
@@ -30,7 +30,7 @@ const { quote, name, position, flex_reverse, sticker } = defineProps({
                     <h4>{{ quote }}</h4>
                 </div>
                 <h4>{{ name }}</h4>
-                <p class="text-secondary playfair">{{ position }}</p>
+                <p class="text-secondary serif">{{ position }}</p>
             </div>
         </div>
     </div>

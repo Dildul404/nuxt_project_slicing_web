@@ -7,7 +7,7 @@
                 </div>
                 <div class="flex-grow-1">
                     <h6 class=" fw-bolder">Why Acme Inc chose Aetherfield</h6>
-                    <p class="playfair fw-medium">With fragmented data and growing reporting pressure, Acme turned to
+                    <p class="serif fw-medium">With fragmented data and growing reporting pressure, Acme turned to
                         Aetherfield to streamline their ESG workflows. The result? Faster decisions, fewer spreadsheets,
                         and 34% more coverage.</p>
                     <ButtonsButtonBlack class="flex-grow-1 flex-md-grow-0">
@@ -18,3 +18,8 @@
         </div>
     </section>
 </template>
+<style scoped>
+.mw-980 {
+    max-width: 980px;
+}
+</style>
