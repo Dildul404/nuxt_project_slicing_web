@@ -3,27 +3,24 @@
         <div class="container-fluid m-0 py-4">
             <div class="containert-fluid d-flex flex-column flex-sm-row justify-content-sm-between text-center">
                 <!-- Links -->
-                <div class="">
-                    <div class="fw-bold d-inline-block pr-3 opacity-75">
-                        <p>Product</p>
+                <div>
+                    <div class="d-inline-block pr-3">
+                        <router-link to="/" class=" link-dark link-opacity-75 text-decoration-none fw-bold">Product</router-link>
                     </div>
-                    <div class="fw-bold d-inline-block pr-3 opacity-75">
-                        <p>Journal</p>
+                    <div class="d-inline-block pr-3">
+                        <router-link to="/journal" class=" link-dark link-opacity-75 text-decoration-none fw-bold">Journal</router-link>
                     </div>
-                    <div class="fw-bold d-inline-block pr-3 opacity-75">
-                        <p>About</p>
+                    <div class="d-inline-block pr-3">
+                        <router-link to="/about" class=" link-dark link-opacity-75 text-decoration-none fw-bold">About</router-link>
                     </div>
-                    <div class="fw-bold d-inline-block pr-3 opacity-75">
-                        <p>Careers</p>
-                    </div>
-                    <div class="fw-bold pr-3 d-inline-block opacity-75">
-                        <p>Get started</p>
+                    <div class="d-inline-block pr-3">
+                        <router-link to="/careers" class=" link-dark link-opacity-75 text-decoration-none fw-bold">Careers</router-link>
                     </div>
                 </div>
 
                 <!-- Copy -->
-                <div class="fw-bold opacity-75">
-                    <p class="serif">&copy; • All rights reserved</p>
+                <div class="opacity-75">
+                    <p class="serif">&copy; 2025 • All rights reserved</p>
                 </div>
             </div>
 

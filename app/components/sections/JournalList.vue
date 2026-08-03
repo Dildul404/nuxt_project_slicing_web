@@ -1,5 +1,13 @@
 <script setup>
-import articles from '~/data/articles.json';
+import { useArticle } from '~/stores/article';
+import { useDinamicFormat } from '~/composable/dinamicFormat'
+import articles from '~/data/articles.json'
+
+const articleStore = useArticle()
+
+function addToArticle(article) {
+    articleStore.addItem(article)
+}
 
 const row_1 = articles.slice(0, 2)
 const row_2 = articles.slice(2, 4)
@@ -16,35 +24,41 @@ const row_3 = articles.slice(4, 6)
         <div class="gap-7 w-100">
             <div class="row">
                 <article class="col-12 col-xl-6" v-for="item in row_1">
-                    <CardsArticleItem 
-                        :key="item.id"
-                        :url="item.url" 
-                        :title="item.title"
-                        :production="item.production"
-                        :quote="item.quote"
-                    />
+                    <NuxtLink class="text-decoration-none text-black" @click="addToArticle(item)" :to="`/article/${useDinamicFormat(item.title)}`">
+                        <CardsArticleItem 
+                            :key="item.id"
+                            :url="item.url" 
+                            :title="item.title"
+                            :production="item.production"
+                            :quote="item.quote"
+                        />
+                    </NuxtLink>
                 </article>
             </div>
             <div class="row">
                 <article class="col-12 col-xl-6" v-for="item in row_2">
-                    <CardsArticleItem 
-                        :key="item.id"
-                        :url="item.url" 
-                        :title="item.title"
-                        :production="item.production"
-                        :quote="item.quote"
-                    />
+                    <NuxtLink class="text-decoration-none text-black" @click="addToArticle(item)" :to="`/article/${useDinamicFormat(item.title)}`">
+                        <CardsArticleItem 
+                            :key="item.id"
+                            :url="item.url" 
+                            :title="item.title"
+                            :production="item.production"
+                            :quote="item.quote"
+                        />
+                    </NuxtLink>
                 </article>
             </div>
             <div class="row">
                 <article class="col-12 col-xl-6" v-for="item in row_3">
-                    <CardsArticleItem 
-                        :key="item.id"
-                        :url="item.url" 
-                        :title="item.title"
-                        :production="item.production"
-                        :quote="item.quote"
-                    />
+                    <NuxtLink class="text-decoration-none text-black" @click="addToArticle(item)" :to="`/article/${useDinamicFormat(item.title)}`">
+                        <CardsArticleItem 
+                            :key="item.id"
+                            :url="item.url" 
+                            :title="item.title"
+                            :production="item.production"
+                            :quote="item.quote"
+                        />
+                    </NuxtLink>
                 </article>
             </div>
         </div>

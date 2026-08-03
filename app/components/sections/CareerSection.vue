@@ -13,7 +13,8 @@ import careers from '~/data/careers.json'
                     :role="item.role" 
                     :residence="item.residence"
                     :desc="item.desc"
-                    :doted_card="item.doted_card" />
+                    :doted_card="item.doted_card"
+                    :obj="item" />
             </div>
         </div>
     </section>

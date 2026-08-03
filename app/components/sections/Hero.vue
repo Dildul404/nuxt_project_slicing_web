@@ -32,13 +32,6 @@
     padding-top: 140px;
 }
 
-.square {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background: #fff;
-}
-
 .mw-960 {
     max-width: 960px;
 }

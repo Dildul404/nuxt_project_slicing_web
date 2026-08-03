@@ -7,7 +7,7 @@ const { h2, btn_content } = defineProps({
 <template>
     <section>
         <div class="py-120 px-4 text-center d-flex flex-column align-items-center gap-5">
-            <h2>{{ h2 }}</h2>
+            <h2 class="fw-bolder">{{ h2 }}</h2>
             <ButtonsButtonBlack class="justify-content-center">{{ btn_content }}</ButtonsButtonBlack>
         </div>
     </section>

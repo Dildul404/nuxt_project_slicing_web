@@ -1,10 +1,19 @@
 <script setup>
-const { doted_card, role, residence, desc } = defineProps({
+import { useDinamicFormat } from '~/composable/dinamicFormat';
+import { useCareer } from '~/stores/career';
+
+const career = useCareer()
+const { obj, doted_card, role, residence, desc } = defineProps({
+    obj : Object,
     doted_card : Boolean,
     role : String,
     residence : String,
     desc : String,
 })
+
+function addToCareer(item) {
+    career.addItem(item)
+}
 </script>
 <template>
     <div class="rounded-3 p-4 d-flex flex-column gap-4 flex-md-row gap-md-5 justify-content-between"
@@ -15,9 +24,9 @@ const { doted_card, role, residence, desc } = defineProps({
             <p class="serif fw-medium lh-sm">{{ desc }}</p>
         </div>
         <div class="d-flex justify-content-md-end align-items-start flex-shrink-0">
-            <router-link class="text-decoration-none" to="/job_listing">
+            <NuxtLink class="text-decoration-none" @click="addToCareer(obj)" :to="doted_card ? `` : `/job_listing/${useDinamicFormat(role)}`">
                 <ButtonsButtonBlack>{{ doted_card ? 'Apply now' : 'View role' }}</ButtonsButtonBlack>
-            </router-link>
+            </NuxtLink>
         </div>
     </div>
 </template>
